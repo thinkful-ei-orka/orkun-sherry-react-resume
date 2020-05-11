@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sally from './sally.js'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
     </header>
     <address>
       <img className="image" src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Sally Student, looking mysterious and beautiful" />
-      <p className="name">Sally Suzie Student</p>
+      <Sally name='Sally Suzie Student' />
       <br className="email" />Email&colon; <a className="email" href="mailto:sallystudent@example.com" target="_blank">sallystudent@example.com</a>
       <br className="phone" />Phone&colon; <a className="phone" href="tel:0906451283">(090) 645-1283</a>
     </address>
